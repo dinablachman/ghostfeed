@@ -1,0 +1,12 @@
+{
+  "name": "wayback-twitter-app",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\"",
+    "client": "npm run dev --prefix client",
+    "server": "npm run dev --prefix server"
+  },
+  "dependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
